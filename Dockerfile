@@ -6,4 +6,4 @@ COPY package.json .
 RUN np install
 COPY . .
 
-CMD["npm","start"]
+CMD ["npm","start"]
